@@ -394,6 +394,24 @@ nav {
   background: transparent !important;
 }
 
+/* Making text movable */
+.moving-text-container {
+  position: relative;
+  overflow: hidden;
+  height: 40px; /* Adjust the height as needed */
+}
+
+.moving-text {
+  position: absolute;
+  top: 0;
+  right: 100%; /* Start the text outside the container */
+  white-space: nowrap;
+  font-size: 13px;
+  color: red;
+  margin-bottom: 15px;
+  animation: moveRight 15s linear infinite; /* Adjust the animation duration as needed */
+}
+
 /* Setting Lines after headers */
 h3 {
   position: relative;
