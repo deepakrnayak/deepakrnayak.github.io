@@ -2,11 +2,22 @@
 <html lang="en">
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NR6M0CHT2F"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NR6M0CHT2F');
+    </script>
+
   <!-- Metadata for the Webpage -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jane Smith, MS</title>
+  <title>Dr. Deepak Ranjan Nayak</title>
 
   <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -50,40 +61,36 @@
 <body>
 
   <!-- navbar include -->
-  <div id="navbar-include"></div>
+  <nav class="navbar navbar-default">
+      <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                  class="icon-bar"></span><span class="icon-bar"></span></button>
+               <a class="navbar-brand montserrat dark-blue" href="/">Dr. Deepak Ranjan Nayak</a>
+         </div> <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+               <li id="home"><a class="montserrat" href="/">About Me</a></li>
+               <li id="teaching"><a class="montserrat" href="teaching.html">Courses</a></li>
+               <li id="publications"><a class="montserrat" href="publications.html">Publications</a></li>
+               <li id="research"><a class="montserrat" href="research.html">Research</a></li>
+            </ul>
+         </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+   </nav>
+  <!-- <div w3-include-html="navbar.html"></div>  -->
 
   <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
   <!-- Main content    -->
   <div id="main-container" class="container">
 
-
-    <!----------------------------------------------------------------------------------------------------- DELETE THIS (BELOW) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
-    <div class="alert alert-info" role="alert">
-      <p>
-        <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
-        <a class="close" data-dismiss="alert" aria-label="close">×</a>
-        <strong>Template and tools</strong>
-        <br>
-        This template is <a href="https://github.com/randal-sean-harrison/academic-website-template" target="_blank">free on Github</a>. No attribution necessary. Extend this template further by building additional Bootstrap 3 components in seconds
-        with my <a href="https://bootstrapr.io" target="_blank">Boostrapr.io</a> app!
-      </p>
-      <p>Photo by <a href="https://unsplash.com/@andresherrerapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andres Herrera</a> on <a
-          href="https://unsplash.com/s/photos/head-shot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-      </p>
-    </div>
-
-    <!----------------------------------------------------------------------------------------------------- DELETE THIS (ABOVE) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
-
-
-
     <div class="row">
       <div class="col-sm-4">
-        <img class="center-block img img-responsive" src="img/andres-herrera-457c7WKmfTw-unsplash_sm.jpg" alt="Image of Jane Smith">
+        <img class="center-block img img-responsive " src="img/mnitjas341.png" alt="photo">
 
-        <p id="title">Doctoral Candidate<br>
-          <span id="program">Political Science</span>
+        <p id="title">Assistant Ptofessor<br>
+          <span id="program">MNIT Jaipur</span>
         </p>
 
         <table class="table" id="contact-table">
@@ -91,18 +98,32 @@
             <tr>
               <td style="width:30px"><i class="fas fa-home"></i></td>
               <td>
-                James Trickington University<br>
-                1234 Happiness Dr.<br>
-                Anytown, State 12345
+                Jaipur, India
               </td>
             </tr>
             <tr>
               <td><i class="fas fa-phone"></i></td>
-              <td><a href="tel:9999999999">(999) 999-9999</a></td>
+              <td><a href="tel:(+91)9861352789">(+91)-9861352789</a></td>
             </tr>
             <tr>
               <td><i class="fas fa-at"></i></td>
-              <td><a href="mailto:jane.smith@example-uni.edu">jane.smith@nd.edu</a></td>
+              <td><a href="mailto:drnayak.cse@mnit.ac.in">drnayak.cse@mnit.ac.in</a></td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-at"></i></td>
+              <td><a href="mailto:depakranjannayak@gmail.com">depakranjannayak@gmail.com</a></td>
+            </tr>
+            <tr>
+              <td><i class="ai ai-google-scholar ai-1x"></i></td>
+              <td><a href="https://scholar.google.co.in/citations?user=ciWMFiAAAAAJ&hl=en" target="_blank">Google scholar</a>
+            </tr>
+            <tr>
+              <td><i class="fab fa-researchgate"></i></td>
+              <td><a href="https://www.researchgate.net/profile/Deepak-Nayak" target="_blank">Twitter</a></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-linkedin-in"></i></td>
+              <td><a href="https://www.linkedin.com/in/dr-deepak-ranjan-nayak-3a62a53b" target="_blank">Linkedin</a></td>
             </tr>
           </tbody>
         </table>
@@ -110,59 +131,97 @@
       </div>
       <div class="col-sm-8">
 
-        <p>I am an {job title} in the {school | department} at {university | institute | organization} where I
-          {first responsibility}, {second responsibility}, and {third responsibility}. My research and teaching focus on {first area}, {second area}, {third area} and {fourth area}.</p>
+          <p style="text-align: justify;">I am Currently working as an <b>Assistant Professor</b> at <b>MNIT Jaipur</b>, working with <td><a href="https://mnit.ac.in/dept_cse/profile?fid=RqmJ" target="_blank">Department of computer science and engineering</a>. Before joining MNIT Jaipur, I worked as an Assitant Professor at Department of computer engineering, SVNIT Surat, India and a <b>Post-Doctoral</b> fellow at IIITDM-Kancheepuram, chennai. </p>
 
-        <p>I received my {degree} in {academic field} from {university} in {year}. I
-          studied {areas specific to your field} under the direction of {advisor}. There I worked on {describe major relevant projects in recent significant degree}.</p>
+          <p style="text-align: justify;">My current research interests mainly focus on medical image analysis and classification through machine learning, deep learning, pattern recognition and computer vision. I have executed one research project funded by SERB, DST, Govt. of India.</p>
 
-        <p>I am currently working on {summary list of projects} with {collaborators, if any} through the {university | organization}.</p>
-
-        <!-- If you don't want a 'read more' section, simple delete this section between the lines of equal signs -->
-        <!-- ============ READ MORE SECTION BELOW =====================  -->
+          
+          <!-- ============ READ MORE SECTION BELOW =====================  -->
         <div id="read-more">
 
-          <p class="push-down-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt totam
-            dolorum voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+          <p style="text-align: justify;" class="push-down-2">I received my Ph.d. in 2019 on computer science and engineering from National Institute of Rourkela under the guidance of <a href="https://website.nitrkl.ac.in/FProfile.aspx?e=ratnakar">Prof. Ratnakar Dash</a> and <a href="https://website.nitrkl.ac.in/FProfile.aspx?e=bmajhi">Prof. Bansidhar Majhi</a>. My thesis was focused <i>towards designing improved pathological brain detection system using machine learning approaches</i>. I received my master's degree in 2013 from CET Bhuvneshwar, India under the guidance of <a href="">Prof. Prashanta Kumar Patra</a>. </p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt totam dolorum
-            voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
-
+          <p style="text-align: justify;"> One of my papers was included in <b>ESI Highly cited papers</b>. I have also received 2020 CMES Young Research award from Tech Science Press for outstanding research in computer modeling and simulation. I also serve as an editorial board member of International Journal of Imaging Systems and Technology, Wiley since January 2021.</p>
+         
+          <p style="text-align: justify;">To know more about our reseach group <a href="https://vaprlab.github.io">click here</a>.</p>
         </div>
         <!-- .read-more -->
-        <span class="badge" id="badge-more">more</span>
+        <span class="badge" id="badge-more">Read more...</span><br>
         <!-- ========= READ MORE SECTION ABOVE =====================  -->
 
+        <br>
+        <!-- .read-more -->
 
-        <h3 class="push-down-3"><span>Education</span></h3>
 
-        <ul id="education">
-          <li>
-            <strong>Ph.D. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>University of Southern California</em></span>
-          </li>
-          <li>
-            <strong>M.A. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>{UNIVERSITY}</em></span>
-          </li>
-          <li>
-            <strong>B.A. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>{UNIVERSITY}</em></span>
-          </li>
+        <!-- If you don't want a 'read more' section, simple delete the entire span class below -->
 
+        <h3 class="push-down-3"><span>Research Interests</span></h3>
+        <p style="font-size: 14px; margin-bottom: 10px;">
+            <span style="margin-right: 10px;">• Deep Learning</span>
+            <span style="margin-right: 10px;">• Medical Image Analysis</span>
+            <span style="margin-right: 10px;">• Pattern Recognition</span>
+            <span style="margin-right: 10px;">• Computer Vision</span>
+            <span style="margin-right: 10px;">• Hyperspectral Image Analysis</span>
+        </p>
+
+        <h3 class="push-down-3"><span>Research Interests</span></h3>
+        <ul>
+            <li> Deep Learning </li>
+            <li> Medical Image Analysis </li>
+            <li> Pattern Recognition </li>
+            <li> Computer Vision </li>
+            <li> Hyperspectral Image Analysis </li>
         </ul>
 
+
+        <h3><span>Open Positions</span></h3>
+
+        <p>Limited Winter/Summer Internship opportunities are available. You can contact me via email.</p>
+      
+        <h5>Minumum Requirements:</h5>
+        <ul>
+          <li>Excellent knowledge of programming languages (Python, Matlab, etc.)</li>
+          <li>Basic knowledge of Computer Vision or Machine Learning will be good to have.</li>
+        </ul>
+        
       </div>
     </div>
 
   </div>
 
   <!-- Back-to-top button -->
+  
   <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
-
+  
 
   <!-- footer include -->
-  <div w3-include-html="footer.html"></div>
+  <footer class="footer">
+      <div class="container">
+        <hr/>
+        <div class="row">
+          <div class="col-sm-6 text-muted">
+
+            <p>&#169; 2023 Deepak R. Nayak</p>
+
+          </div>
+          
+          <div class="col-sm-6">
+
+            <!-- Social professional networking icons -->
+     
+            <ul class="social-icons pull-right">
+              <li><a href="https://www.linkedin.com/in/dr-deepak-ranjan-nayak-3a62a53b" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+	            <li><a href="https://scholar.google.co.in/citations?user=ciWMFiAAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>
+	            <li><a href="mailto:drnayak.cse@mnit.ac.in" target="_blank"><i class="far fa-envelope fa-2x"></i></a></li>
+	            <li><a href="https://www.researchgate.net/profile/Deepak-Nayak" target="_blank"><i class="fab fa-researchgate fa-2x"></i></a></li>
+            </ul>
+     
+          </div>
+        </div>
+      </div>
+    </footer><!-- jQuery Javascript Library -->
+
+  <!-- <div w3-include-html="footer.html"></div> -->
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -181,14 +240,12 @@
 
   <script>
     $(document).ready(function() {
-
-      $("#navbar-include").load("navbar.html", function() {
-        console.log("Navbar loaded.");
-      });
-
+      $("li#home a").addClass("active");
+      $("li#home a").addClass("hvr-bubble-bottom");
     });
   </script>
 
 </body>
+
 
 </html>
