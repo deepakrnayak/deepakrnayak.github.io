@@ -119,6 +119,28 @@ blockquote footer {
   ;
 }
 
+.research {
+  list-style-type: initial;
+  padding-left: 2.5rem;
+}
+
+.research li {
+  margin-left: 2rem;
+  text-indent: 0rem;
+  ;
+}
+
+.teaching {
+  list-style-type: initial;
+  padding-left: 2.5rem;
+}
+
+.teaching li {
+  margin-left: 2rem;
+  text-indent: 0rem;
+  ;
+}
+
 /* Links */
 #main-container a {
   color: #1585cf;
